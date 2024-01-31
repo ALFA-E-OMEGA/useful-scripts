@@ -1,1 +1,1 @@
-Useful scripts for this organization project
+Useful scripts for this organization
