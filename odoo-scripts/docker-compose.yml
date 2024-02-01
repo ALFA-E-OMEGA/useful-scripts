@@ -10,7 +10,7 @@ services:
       - odoo-web-data:/var/lib/odoo
       - ./config:/etc/odoo
       - ./addons:/mnt/extra-addons
-      - ./custom-addons:/mnt/custom-addons 
+      - ./custom_addons:/mnt/custom_addons 
     environment:
       - POSTGRES_PASSWORD=odoo
       - POSTGRES_USER=odoo
